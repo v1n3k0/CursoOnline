@@ -1,0 +1,14 @@
+C:\MeuGitHub\CursoOnline\test\CursoOnline.DominioTest\CursoOnline.DominioTest\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\MeuGitHub\CursoOnline\test\CursoOnline.DominioTest\CursoOnline.DominioTest\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\MeuGitHub\CursoOnline\test\CursoOnline.DominioTest\CursoOnline.DominioTest\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\MeuGitHub\CursoOnline\test\CursoOnline.DominioTest\CursoOnline.DominioTest\bin\Debug\netcoreapp2.1\CursoOnline.DominioTest.deps.json
+C:\MeuGitHub\CursoOnline\test\CursoOnline.DominioTest\CursoOnline.DominioTest\bin\Debug\netcoreapp2.1\CursoOnline.DominioTest.runtimeconfig.json
+C:\MeuGitHub\CursoOnline\test\CursoOnline.DominioTest\CursoOnline.DominioTest\bin\Debug\netcoreapp2.1\CursoOnline.DominioTest.runtimeconfig.dev.json
+C:\MeuGitHub\CursoOnline\test\CursoOnline.DominioTest\CursoOnline.DominioTest\bin\Debug\netcoreapp2.1\CursoOnline.DominioTest.dll
+C:\MeuGitHub\CursoOnline\test\CursoOnline.DominioTest\CursoOnline.DominioTest\bin\Debug\netcoreapp2.1\CursoOnline.DominioTest.pdb
+C:\MeuGitHub\CursoOnline\test\CursoOnline.DominioTest\CursoOnline.DominioTest\obj\Debug\netcoreapp2.1\CursoOnline.DominioTest.csprojAssemblyReference.cache
+C:\MeuGitHub\CursoOnline\test\CursoOnline.DominioTest\CursoOnline.DominioTest\obj\Debug\netcoreapp2.1\CursoOnline.DominioTest.csproj.CoreCompileInputs.cache
+C:\MeuGitHub\CursoOnline\test\CursoOnline.DominioTest\CursoOnline.DominioTest\obj\Debug\netcoreapp2.1\CursoOnline.DominioTest.AssemblyInfoInputs.cache
+C:\MeuGitHub\CursoOnline\test\CursoOnline.DominioTest\CursoOnline.DominioTest\obj\Debug\netcoreapp2.1\CursoOnline.DominioTest.AssemblyInfo.cs
+C:\MeuGitHub\CursoOnline\test\CursoOnline.DominioTest\CursoOnline.DominioTest\obj\Debug\netcoreapp2.1\CursoOnline.DominioTest.dll
+C:\MeuGitHub\CursoOnline\test\CursoOnline.DominioTest\CursoOnline.DominioTest\obj\Debug\netcoreapp2.1\CursoOnline.DominioTest.pdb
