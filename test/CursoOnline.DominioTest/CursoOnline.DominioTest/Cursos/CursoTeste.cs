@@ -1,4 +1,5 @@
-﻿using Xunit;
+﻿using ExpectedObjects;
+using Xunit;
 
 namespace CursoOnline.DominioTest.Cursos
 {
@@ -7,17 +8,18 @@ namespace CursoOnline.DominioTest.Cursos
         [Fact]
         public void DeveCriarCurso()
         {
-            const string nome = "Informações básicas";
-            const int cargaHoraria = 80;
-            const string publicoAlvo = "Estudante";
-            const int valor = 950;
 
-            var curso = new Curso(nome, cargaHoraria, publicoAlvo, valor);
+            var cursoEsperado = new
+            {
+                nome = "Informações básicas",
+                cargaHoraria = (double)80,
+                publicoAlvo = "Estudante",
+                valor = (double)950
+            };
 
-            Assert.Equal(nome, curso.nome);
-            Assert.Equal(cargaHoraria, curso.cargaHoraria);
-            Assert.Equal(publicoAlvo, curso.publicoAlvo);
-            Assert.Equal(valor, curso.valor);
+            var curso = new Curso(cursoEsperado.nome, cursoEsperado.cargaHoraria, cursoEsperado.publicoAlvo, cursoEsperado.valor);
+
+            cursoEsperado.ToExpectedObject().ShouldMatch(curso);
         }
     }
 }
