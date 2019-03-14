@@ -13,7 +13,7 @@ namespace CursoOnline.DominioTest.Cursos
             {
                 nome = "Informações básicas",
                 cargaHoraria = (double)80,
-                publicoAlvo = "Estudante",
+                publicoAlvo = PublicoAlvo.Estudante,
                 valor = (double)950
             };
 
