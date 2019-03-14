@@ -1,4 +1,6 @@
-﻿namespace CursoOnline.DominioTest.Cursos
+﻿using System;
+
+namespace CursoOnline.DominioTest.Cursos
 {
     internal class Curso
     {
@@ -9,6 +11,9 @@
 
         public Curso(string nome, double cargaHoraria, PublicoAlvo publicoAlvo, double valor)
         {
+            if (string.IsNullOrWhiteSpace(nome))
+                throw new ArgumentException();
+
             this.nome = nome;
             this.cargaHoraria = cargaHoraria;
             this.publicoAlvo = publicoAlvo;
