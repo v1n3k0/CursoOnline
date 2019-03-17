@@ -26,3 +26,6 @@ E:\Meu Git\CursoOnline\test\CursoOnline.DominioTest\CursoOnline.DominioTest\obj\
 E:\Meu Git\CursoOnline\test\CursoOnline.DominioTest\CursoOnline.DominioTest\obj\Debug\netcoreapp2.1\CursoOnline.DominioTest.AssemblyInfo.cs
 E:\Meu Git\CursoOnline\test\CursoOnline.DominioTest\CursoOnline.DominioTest\obj\Debug\netcoreapp2.1\CursoOnline.DominioTest.dll
 E:\Meu Git\CursoOnline\test\CursoOnline.DominioTest\CursoOnline.DominioTest\obj\Debug\netcoreapp2.1\CursoOnline.DominioTest.pdb
+E:\Meu Git\CursoOnline\test\CursoOnline.DominioTest\CursoOnline.DominioTest\bin\Debug\netcoreapp2.1\CursoOnline.Dominio.dll
+E:\Meu Git\CursoOnline\test\CursoOnline.DominioTest\CursoOnline.DominioTest\bin\Debug\netcoreapp2.1\CursoOnline.Dominio.pdb
+E:\Meu Git\CursoOnline\test\CursoOnline.DominioTest\CursoOnline.DominioTest\obj\Debug\netcoreapp2.1\CursoOnline.DominioTest.csproj.CopyComplete
