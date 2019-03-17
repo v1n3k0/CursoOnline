@@ -2,14 +2,15 @@
 
 namespace CursoOnline.DominioTest.Cursos
 {
-    internal class Curso
+    public class Curso
     {
         public string nome { get; private set; }
         public double cargaHoraria { get; private set; }
         public PublicoAlvo publicoAlvo { get; private set; }
         public double valor {get; private set; }
+        public string descricao { get; private set; }
 
-        public Curso(string nome, double cargaHoraria, PublicoAlvo publicoAlvo, double valor)
+        public Curso(string nome, string descricao, double cargaHoraria, PublicoAlvo publicoAlvo, double valor)
         {
             if (string.IsNullOrWhiteSpace(nome))
                 throw new ArgumentException("Nome inválido");
@@ -24,6 +25,7 @@ namespace CursoOnline.DominioTest.Cursos
             this.cargaHoraria = cargaHoraria;
             this.publicoAlvo = publicoAlvo;
             this.valor = valor;
+            this.descricao = descricao;
         }
     }
 }
