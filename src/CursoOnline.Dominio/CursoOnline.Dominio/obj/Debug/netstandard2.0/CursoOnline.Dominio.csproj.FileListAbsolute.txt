@@ -7,3 +7,12 @@ C:\MeuGitHub\CursoOnline\src\CursoOnline.Dominio\CursoOnline.Dominio\obj\Debug\n
 C:\MeuGitHub\CursoOnline\src\CursoOnline.Dominio\CursoOnline.Dominio\obj\Debug\netstandard2.0\CursoOnline.Dominio.AssemblyInfo.cs
 C:\MeuGitHub\CursoOnline\src\CursoOnline.Dominio\CursoOnline.Dominio\obj\Debug\netstandard2.0\CursoOnline.Dominio.dll
 C:\MeuGitHub\CursoOnline\src\CursoOnline.Dominio\CursoOnline.Dominio\obj\Debug\netstandard2.0\CursoOnline.Dominio.pdb
+E:\Meu Git\CursoOnline\src\CursoOnline.Dominio\CursoOnline.Dominio\bin\Debug\netstandard2.0\CursoOnline.Dominio.deps.json
+E:\Meu Git\CursoOnline\src\CursoOnline.Dominio\CursoOnline.Dominio\bin\Debug\netstandard2.0\CursoOnline.Dominio.dll
+E:\Meu Git\CursoOnline\src\CursoOnline.Dominio\CursoOnline.Dominio\bin\Debug\netstandard2.0\CursoOnline.Dominio.pdb
+E:\Meu Git\CursoOnline\src\CursoOnline.Dominio\CursoOnline.Dominio\obj\Debug\netstandard2.0\CursoOnline.Dominio.csprojAssemblyReference.cache
+E:\Meu Git\CursoOnline\src\CursoOnline.Dominio\CursoOnline.Dominio\obj\Debug\netstandard2.0\CursoOnline.Dominio.csproj.CoreCompileInputs.cache
+E:\Meu Git\CursoOnline\src\CursoOnline.Dominio\CursoOnline.Dominio\obj\Debug\netstandard2.0\CursoOnline.Dominio.AssemblyInfoInputs.cache
+E:\Meu Git\CursoOnline\src\CursoOnline.Dominio\CursoOnline.Dominio\obj\Debug\netstandard2.0\CursoOnline.Dominio.AssemblyInfo.cs
+E:\Meu Git\CursoOnline\src\CursoOnline.Dominio\CursoOnline.Dominio\obj\Debug\netstandard2.0\CursoOnline.Dominio.dll
+E:\Meu Git\CursoOnline\src\CursoOnline.Dominio\CursoOnline.Dominio\obj\Debug\netstandard2.0\CursoOnline.Dominio.pdb

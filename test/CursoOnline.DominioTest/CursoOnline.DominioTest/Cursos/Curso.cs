@@ -12,7 +12,13 @@ namespace CursoOnline.DominioTest.Cursos
         public Curso(string nome, double cargaHoraria, PublicoAlvo publicoAlvo, double valor)
         {
             if (string.IsNullOrWhiteSpace(nome))
-                throw new ArgumentException();
+                throw new ArgumentException("Nome inválido");
+
+            if (cargaHoraria < 1)
+                throw new ArgumentException("Carga horaria inválida");
+
+            if (valor < 1)
+                throw new ArgumentException("Valor inválido");
 
             this.nome = nome;
             this.cargaHoraria = cargaHoraria;
