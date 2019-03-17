@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.1": {
+      "Bogus/26.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Bogus.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Bogus.dll": {}
+        }
+      },
       "ExpectedObjects/2.3.4": {
         "type": "package",
         "dependencies": {
@@ -1690,6 +1699,26 @@
     }
   },
   "libraries": {
+    "Bogus/26.0.1": {
+      "sha512": "OqaYXsB2cnxPrKCiv2Az+iotn0mQTZ7QR5e014Ywq2qY/yrhNzO068riqQyFsuZrPLEH6VJuH2yZJtCqnlAExg==",
+      "type": "package",
+      "path": "bogus/26.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bogus.26.0.1.nupkg.sha512",
+        "bogus.nuspec",
+        "lib/net40/Bogus.dll",
+        "lib/net40/Bogus.pdb",
+        "lib/net40/Bogus.xml",
+        "lib/netstandard1.3/Bogus.dll",
+        "lib/netstandard1.3/Bogus.pdb",
+        "lib/netstandard1.3/Bogus.xml",
+        "lib/netstandard2.0/Bogus.dll",
+        "lib/netstandard2.0/Bogus.pdb",
+        "lib/netstandard2.0/Bogus.xml"
+      ]
+    },
     "ExpectedObjects/2.3.4": {
       "sha512": "apxd2+TpSkXAF14LJs6yksr7yZyV1lF/GM/8GipJg+p7Ih1jhLKri/xYsgV9+OpBKzsAy+4lYQ8CswvHCOSrFQ==",
       "type": "package",
@@ -5866,6 +5895,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "Bogus >= 26.0.1",
       "ExpectedObjects >= 2.3.4",
       "Microsoft.NET.Test.Sdk >= 15.9.0",
       "Microsoft.NETCore.App >= 2.1.0",
@@ -5914,6 +5944,10 @@
     "frameworks": {
       "netcoreapp2.1": {
         "dependencies": {
+          "Bogus": {
+            "target": "Package",
+            "version": "[26.0.1, )"
+          },
           "ExpectedObjects": {
             "target": "Package",
             "version": "[2.3.4, )"

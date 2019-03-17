@@ -1,13 +1,14 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "e15f7969673f6c4f0cf6bc90aaae81a86d0f2efe"
+    "signature": "44936e46896c26fc6f2f2cf0cfd12b3fe8e58099"
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.1": {
       "CursoOnline.DominioTest/1.0.0": {
         "dependencies": {
+          "Bogus": "26.0.1",
           "ExpectedObjects": "2.3.4",
           "Microsoft.NET.Test.Sdk": "15.9.0",
           "xunit": "2.4.0",
@@ -15,6 +16,14 @@
         },
         "runtime": {
           "CursoOnline.DominioTest.dll": {}
+        }
+      },
+      "Bogus/26.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Bogus.dll": {
+            "assemblyVersion": "26.0.1.0",
+            "fileVersion": "26.0.1.0"
+          }
         }
       },
       "ExpectedObjects/2.3.4": {
@@ -1072,6 +1081,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Bogus/26.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OqaYXsB2cnxPrKCiv2Az+iotn0mQTZ7QR5e014Ywq2qY/yrhNzO068riqQyFsuZrPLEH6VJuH2yZJtCqnlAExg==",
+      "path": "bogus/26.0.1",
+      "hashPath": "bogus.26.0.1.nupkg.sha512"
     },
     "ExpectedObjects/2.3.4": {
       "type": "package",
