@@ -1,4 +1,5 @@
-﻿using Xunit;
+﻿using Moq;
+using Xunit;
 
 namespace CursoOnline.DominioTest.Cursos
 {
@@ -18,9 +19,13 @@ namespace CursoOnline.DominioTest.Cursos
                 valor = 850.00
             };
 
-            var armazenadorDeCurso = new ArmazenadorDeCurso();
+            var cursoRepositorioMock = new Mock<ICursoRepositorio>();
+
+            var armazenadorDeCurso = new ArmazenadorDeCurso(cursoRepositorioMock.Object);
 
             armazenadorDeCurso.Armazenar(CursoDto);
+
+            cursoRepositorioMock.Verify(r => r.Adicionar(It.IsAny<Curso>()));
         }
     }
 }

@@ -179,23 +179,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\vinic\\.nuget\\packages\\": {},
+    "C:\\Users\\vinicius.horiguchi\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Meu Git\\CursoOnline\\src\\CursoOnline.Dominio\\CursoOnline.Dominio\\CursoOnline.Dominio.csproj",
+      "projectUniqueName": "C:\\MeuGitHub\\CursoOnline\\src\\CursoOnline.Dominio\\CursoOnline.Dominio\\CursoOnline.Dominio.csproj",
       "projectName": "CursoOnline.Dominio",
-      "projectPath": "E:\\Meu Git\\CursoOnline\\src\\CursoOnline.Dominio\\CursoOnline.Dominio\\CursoOnline.Dominio.csproj",
-      "packagesPath": "C:\\Users\\vinic\\.nuget\\packages\\",
-      "outputPath": "E:\\Meu Git\\CursoOnline\\src\\CursoOnline.Dominio\\CursoOnline.Dominio\\obj\\",
+      "projectPath": "C:\\MeuGitHub\\CursoOnline\\src\\CursoOnline.Dominio\\CursoOnline.Dominio\\CursoOnline.Dominio.csproj",
+      "packagesPath": "C:\\Users\\vinicius.horiguchi\\.nuget\\packages\\",
+      "outputPath": "C:\\MeuGitHub\\CursoOnline\\src\\CursoOnline.Dominio\\CursoOnline.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\vinic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\vinicius.horiguchi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
