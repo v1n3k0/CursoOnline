@@ -17,7 +17,8 @@ namespace CursoOnline.DominioTest.Cursos
 
         internal void Armazenar(CursoDto cursoDto)
         {
-            var curso = new Curso(cursoDto.nome, cursoDto.descricao, cursoDto.cargaHoraria, PublicoAlvo.Estudante, cursoDto.valor);
+            Enum.TryParse(typeof(PublicoAlvo), cursoDto.publicoAlvo, out var publicoAlvo);
+            var curso = new Curso(cursoDto.nome, cursoDto.descricao, cursoDto.cargaHoraria, (PublicoAlvo)publicoAlvo, cursoDto.valor);
 
             _cursoRepositorio.Adicionar(curso);
         }

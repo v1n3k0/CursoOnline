@@ -1,5 +1,6 @@
 ﻿using Bogus;
 using Moq;
+using System;
 using Xunit;
 
 namespace CursoOnline.DominioTest.Cursos
@@ -19,7 +20,7 @@ namespace CursoOnline.DominioTest.Cursos
                 nome = fake.Random.Words(),
                 descricao = fake.Lorem.Paragraph(),
                 cargaHoraria = fake.Random.Double(50, 1000),
-                publicoAlvo = PublicoAlvo.Estudante,
+                publicoAlvo = PublicoAlvo.Estudante.ToString(),
                 valor = fake.Random.Double(1000, 2000)
             };
         }
@@ -38,6 +39,17 @@ namespace CursoOnline.DominioTest.Cursos
                     c.descricao == _cursoDto.descricao
                     )
                 ), Times.AtLeast(1));
+        }
+
+        [Fact]
+        public void NaoDeveInformarPublicoAlvoInvalido()
+        {
+            var publicoAlvoInvalido = "Medico";
+            _cursoDto.publicoAlvo = publicoAlvoInvalido;
+
+            Assert.Throws<ArgumentException>(() => _armazenadorDeCurso.Armazenar(_cursoDto))
+                .ComMensagem("Publico Alvo inválido");
+
         }
     }
 }
