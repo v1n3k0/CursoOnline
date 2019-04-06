@@ -1,4 +1,5 @@
 ﻿using Bogus;
+using CursoOnline.DominioTest._Util;
 using Moq;
 using System;
 using Xunit;
@@ -20,17 +21,17 @@ namespace CursoOnline.DominioTest.Cursos
                 nome = fake.Random.Words(),
                 descricao = fake.Lorem.Paragraph(),
                 cargaHoraria = fake.Random.Double(50, 1000),
-                publicoAlvo = PublicoAlvo.Estudante.ToString(),
+                publicoAlvo = "Estudante",
                 valor = fake.Random.Double(1000, 2000)
             };
+
+            _cursoRepositorioMock = new Mock<ICursoRepositorio>();
+            _armazenadorDeCurso = new ArmazenadorDeCurso(_cursoRepositorioMock.Object);
         }
 
         [Fact]
         public void DeveAdicionarCurso()
         {
-            _cursoRepositorioMock = new Mock<ICursoRepositorio>();
-            _armazenadorDeCurso = new ArmazenadorDeCurso(_cursoRepositorioMock.Object);
-
             _armazenadorDeCurso.Armazenar(_cursoDto);
 
             _cursoRepositorioMock.Verify(r => r.Adicionar(
@@ -44,7 +45,7 @@ namespace CursoOnline.DominioTest.Cursos
         [Fact]
         public void NaoDeveInformarPublicoAlvoInvalido()
         {
-            var publicoAlvoInvalido = "Medico";
+            var publicoAlvoInvalido = "Médico";
             _cursoDto.publicoAlvo = publicoAlvoInvalido;
 
             Assert.Throws<ArgumentException>(() => _armazenadorDeCurso.Armazenar(_cursoDto))
