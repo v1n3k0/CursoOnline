@@ -15,3 +15,4 @@ E:\Meu Git\CursoOnline\src\CursoOnline.Dominio\CursoOnline.Dominio\obj\Debug\net
 E:\Meu Git\CursoOnline\src\CursoOnline.Dominio\CursoOnline.Dominio\obj\Debug\netstandard2.0\CursoOnline.Dominio.AssemblyInfo.cs
 E:\Meu Git\CursoOnline\src\CursoOnline.Dominio\CursoOnline.Dominio\obj\Debug\netstandard2.0\CursoOnline.Dominio.dll
 E:\Meu Git\CursoOnline\src\CursoOnline.Dominio\CursoOnline.Dominio\obj\Debug\netstandard2.0\CursoOnline.Dominio.pdb
+E:\Meu Git\CursoOnline\src\CursoOnline.Dominio\CursoOnline.Dominio\obj\Debug\netstandard2.0\CursoOnline.Dominio.csprojAssemblyReference.cache

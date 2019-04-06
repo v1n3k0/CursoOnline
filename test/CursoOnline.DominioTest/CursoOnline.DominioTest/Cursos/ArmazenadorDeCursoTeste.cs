@@ -1,4 +1,5 @@
 ﻿using Bogus;
+using CursoOnline.DominioTest._Builders;
 using CursoOnline.DominioTest._Util;
 using Moq;
 using System;
@@ -51,6 +52,16 @@ namespace CursoOnline.DominioTest.Cursos
             Assert.Throws<ArgumentException>(() => _armazenadorDeCurso.Armazenar(_cursoDto))
                 .ComMensagem("Publico Alvo inválido");
 
+        }
+
+        [Fact]
+        public void NaoDeveAdicionarCursoComMesmoNomeDeOutroSalvo()
+        {
+            var cursoSalvo = CursoBuilder.Novo().ComNome(_cursoDto.nome).Build();
+            _cursoRepositorioMock.Setup(r => r.ObterPeloNome(_cursoDto.nome)).Returns(cursoSalvo);
+
+            Assert.Throws<ArgumentException>(() => _armazenadorDeCurso.Armazenar(_cursoDto))
+                .ComMensagem("Nome do curso já existe");
         }
     }
 }
